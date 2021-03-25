@@ -1,2 +1,2 @@
-# LaneDetection
- Identify and track lanes for driver-less vehicles.
+# Introduction 
+Most lanes are designed to be relatively straightforward not only as to encourage orderliness but also to make it easier for human drivers to steer vehicles with consistent speed. Therefore, our intuitive approach may be to first detect prominent straight lines in the camera feed through edge detection and feature extraction techniques. I have used OpenCV, an open source library of computer vision algorithms, for implementation. 
