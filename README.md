@@ -10,3 +10,5 @@ pip install opencv-python
 ## Processing a video
 We will feed in our sample video for lane detection as a series of continuous frames (images) by intervals of 10 milliseconds. We can also quit the program anytime by pressing the ‘q’ key.
 
+## Applying Canny Detector
+The Canny Detector is a multi-stage algorithm optimized for fast real-time edge detection. The fundamental goal of the algorithm is to detect sharp changes in luminosity (large gradients), such as a shift from white to black, and defines them as edges, given a set of thresholds. The Canny algorithm has four main stages:
